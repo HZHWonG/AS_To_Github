@@ -1,6 +1,8 @@
 package com.example.wong.git_test;
 
 import android.app.Activity;
+import android.os.Bundle;
+import android.support.annotation.Nullable;
 
 /**
  * @author WonG
@@ -9,6 +11,8 @@ import android.app.Activity;
  */
 public class Test_Git_add3 extends Activity{
 
-
-
+    @Override
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    }
 }
